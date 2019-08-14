@@ -6,7 +6,7 @@ echo  '\n'
 
 echo Install and Set San Francisco as System Font
 echo Install Homebrew, Postgres, wget and cask
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install wget
 brew install bash 
 brew install imagemagick
