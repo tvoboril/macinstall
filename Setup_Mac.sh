@@ -55,7 +55,7 @@ brew cask install  MkChromecast
 echo Install Some additional Apps
 brew cask install  musescore
 brew cask install  gimp
-# Link Cask Apps to Alfred
+brew cask install adobe-creative-cloud
 
 # cleanup
 brew cleanup --force
