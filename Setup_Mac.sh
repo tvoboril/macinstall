@@ -4,8 +4,11 @@ echo Install all AppStore Apps at first!
 read -p "Press any key to continue... " -n1 -s
 echo  '\n'
 
-echo Install and Set San Francisco as System Font
-echo Install Homebrew, Postgres, wget and cask
+echo Install Source Code Pro
+git clone https://github.com/adobe-fonts/source-code-pro.git
+cp ~/source-code-pro/OTF/* /Library/Fonts/.
+
+echo Install Homebrew, wget, cask, etc
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install wget
 brew install bash 
