@@ -61,6 +61,10 @@ brew cask install  gimp
 brew cleanup --force
 
 brew install bash-completion@2
-copy ~/.bash_profile .bash_profile_old
-copy bash_profile ~.bash_profile
-copy vimrc ~/.vimrc
+cp ~/.bash_profile ~/.bash_profile_old
+cp bash_profile ~/.bash_profile
+cp ~/.vimrc ~/.vimrc_old
+cp vimrc ~/.vimrc
+
+cd /usr/local/Cellar/bash/
+ls
