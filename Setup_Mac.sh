@@ -21,6 +21,8 @@ brew install speedtest-cli
 brew install git
 brew install coreutils
 brew install htop 
+brew install awscli
+brew install aws-shell
 
 brew install brew-cask
 #brew cask search
@@ -32,10 +34,6 @@ brew cask install  alfred
 brew cask install  authy 
 brew cask install  skype
 brew cask install  vlc
-brew cask install  handbrake
-brew cask install  makeMKV
-brew cask install  zenmap
-brew cask install  wireshark
 brew cask install  firefox
 #brew cask install --appdir="/Applications" evernote
 #brew cask install --appdir="/Applications" wunderlist
@@ -47,7 +45,10 @@ brew cask install  atom
 brew cask install  sequel-pro
 brew cask install  macvim
 brew cask install  veracrypt
-
+brew cask install  handbrake
+brew cask install  makeMKV
+brew cask install  zenmap
+brew cask install  wireshark
 
 # Google Slavery
 echo Install Google Apps
