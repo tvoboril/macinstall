@@ -6,7 +6,7 @@ echo  '\n'
 
 echo Install Source Code Pro
 git clone https://github.com/adobe-fonts/source-code-pro.git
-cp ~/source-code-pro/OTF/* /Library/Fonts/.
+cp source-code-pro/OTF/* /Library/Fonts/.
 
 echo Install Homebrew, wget, cask, etc
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
