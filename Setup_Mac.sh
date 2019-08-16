@@ -60,6 +60,7 @@ echo Install Some additional Apps
 brew cask install  musescore
 brew cask install  gimp
 brew cask install adobe-creative-cloud
+open /usr/local/Caskroom/adobe-creative-cloud/latest
 echo Install Adobe Creative Cloud Now
 read -p "Press any key to continue... " -n1 -s
 echo  '\n'
