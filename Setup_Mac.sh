@@ -60,15 +60,25 @@ echo Install Some additional Apps
 brew cask install  musescore
 brew cask install  gimp
 brew cask install adobe-creative-cloud
+echo Install Adobe Creative Cloud Now
+read -p "Press any key to continue... " -n1 -s
+echo  '\n'
+brew install bash-completion@2
+echo Now do bash completion stuff
+read -p "Press any key to continue... " -n1 -s
+echo  '\n'
+
 
 # cleanup
 brew cleanup --force
 
-brew install bash-completion@2
+
+#copy my profile stuff
 cp ~/.bash_profile ~/.bash_profile_old
 cp bash_profile ~/.bash_profile
 cp ~/.vimrc ~/.vimrc_old
 cp vimrc ~/.vimrc
 
-cd /usr/local/Cellar/bash/
-ls
+echo Set your Terminal Profile and start configuring stuff
+read -p "Press any key to continue... " -n1 -s
+echo  '\n'
