@@ -59,6 +59,8 @@ brew cask install  MkChromecast
 echo Install Some additional Apps
 brew cask install  musescore
 brew cask install  gimp
+brew cask install parallels
+brew cask install microsoft-office
 brew cask install adobe-creative-cloud
 open /usr/local/Caskroom/adobe-creative-cloud/latest
 echo Install Adobe Creative Cloud Now
