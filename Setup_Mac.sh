@@ -49,6 +49,7 @@ brew cask install  handbrake
 brew cask install  makeMKV
 brew cask install  zenmap
 brew cask install  wireshark
+brew cask install gpredict
 
 # Google Slavery
 echo Install Google Apps
