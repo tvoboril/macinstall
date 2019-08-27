@@ -35,6 +35,7 @@ brew cask install  authy
 brew cask install  skype
 brew cask install  vlc
 brew cask install  firefox
+brew cask install discord
 #brew cask install --appdir="/Applications" evernote
 #brew cask install --appdir="/Applications" wunderlist
 #brew cask install --appdir="/Applications" clamxav
