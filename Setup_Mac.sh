@@ -42,6 +42,7 @@ brew cask install discord
 
 # Development
 echo Install Dev Apps
+brew install gpg
 brew cask install  atom
 brew cask install  sequel-pro
 brew cask install  macvim
