@@ -30,11 +30,11 @@ brew install brew-cask
 
 # Core Functionality
 echo Install Core Apps
-brew cask install  alfred
-brew cask install  authy
-brew cask install  skype
-brew cask install  vlc
-brew cask install  firefox
+brew cask install alfred
+brew cask install authy
+brew cask install skype
+brew cask install vlc
+brew cask install firefox
 brew cask install discord
 brew cask install java
 #brew cask install --appdir="/Applications" evernote
@@ -44,14 +44,14 @@ brew cask install java
 # Development
 echo Install Dev Apps
 brew install gpg
-brew cask install  atom
-brew cask install  sequel-pro
-brew cask install  macvim
-brew cask install  veracrypt
-brew cask install  handbrake
-brew cask install  makeMKV
-brew cask install  zenmap
-brew cask install  wireshark
+brew cask install atom
+brew cask install sequel-pro
+brew cask install macvim
+brew cask install veracrypt
+brew cask install handbrake
+brew cask install makeMKV
+brew cask install zenmap
+brew cask install wireshark
 brew cask install gpredict
 
 # Google Slavery
@@ -61,8 +61,8 @@ brew cask install  google-chrome
 brew cask install  MkChromecast
 # Nice to have
 echo Install Some additional Apps
-brew cask install  musescore
-brew cask install  gimp
+brew cask install musescore
+brew cask install gimp
 brew cask install parallels
 brew cask install microsoft-office
 brew cask install adobe-creative-cloud
