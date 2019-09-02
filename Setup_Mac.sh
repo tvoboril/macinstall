@@ -11,7 +11,7 @@ cp source-code-pro/OTF/* /Library/Fonts/.
 echo Install Homebrew, wget, cask, etc
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install wget
-brew install bash 
+brew install bash
 brew install imagemagick
 brew install midnight-commander
 brew install youtube-dl
@@ -20,7 +20,7 @@ brew install tree
 brew install speedtest-cli
 brew install git
 brew install coreutils
-brew install htop 
+brew install htop
 brew install awscli
 brew install aws-shell
 
@@ -31,11 +31,12 @@ brew install brew-cask
 # Core Functionality
 echo Install Core Apps
 brew cask install  alfred
-brew cask install  authy 
+brew cask install  authy
 brew cask install  skype
 brew cask install  vlc
 brew cask install  firefox
 brew cask install discord
+brew cask install java
 #brew cask install --appdir="/Applications" evernote
 #brew cask install --appdir="/Applications" wunderlist
 #brew cask install --appdir="/Applications" clamxav
