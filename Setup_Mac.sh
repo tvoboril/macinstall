@@ -25,6 +25,7 @@ brew install awscli
 brew install aws-shell
 brew install cmake
 brew install brew-cask
+brew install sshfs
 #brew cask search
 #brew cask uninstall app
 
