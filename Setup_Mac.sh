@@ -10,16 +10,20 @@ cp source-code-pro/OTF/* /Library/Fonts/.
 
 echo Install Homebrew, wget, cask, etc
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install jq
+brew install terraform
+brew install tmux
+brew install kubectx
+brew install watch
 brew install wget
 brew install bash
+brew install dive
 brew install imagemagick
 brew install midnight-commander
 brew install youtube-dl
 brew install ffmpeg
 brew install tree
 brew install speedtest-cli
-brew install git
-brew install coreutils
 brew install htop
 brew install awscli
 brew install aws-shell
