@@ -110,6 +110,8 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 #cp vimrc ~/.vimrc
 cp .zshrc ~/.zshrc
 
+p10k configure
+
 echo Set your Terminal Profile and start configuring stuff
 read -p "Press any key to continue... " -n1 -s
 echo  '\n'
