@@ -19,11 +19,10 @@ brew install midnight-commander
 brew install tree
 brew install speedtest-cli
 brew install htop
-brew install iterm2
 brew install neofetch
 sudo gem install colorls
 brew install java
-brew install istat-menus
+
 
 #Biz Apps
 brew install discord
@@ -49,14 +48,17 @@ brew install go
 brew install awscli
 brew install aws-shell
 brew install cmake
+brew install kubectl
 
 # Nice to have
 echo Install Some additional Apps
 brew install musescore
 brew install gimp
-
-
-
+brew install alfred
+brew install authy
+brew install vlc
+brew install iterm2
+brew install istat-menus
 
 
 # cleanup
@@ -79,7 +81,7 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 #cp bash_profile ~/.bash_profile
 #cp ~/.vimrc ~/.vimrc_old
 #cp vimrc ~/.vimrc
-cp .zshrc ~/.zshrc
+cp zshrc ~/.zshrc
 
 zsh p10k configure
 
