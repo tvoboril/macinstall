@@ -49,28 +49,29 @@ brew cask install java
 # Development
 echo Install Dev Apps
 brew install gpg
-brew cask install atom
-brew cask install sequel-pro
-brew cask install macvim
-brew cask install veracrypt
+brew install atom
+brew install sequel-pro
+brew install macvim
+brew install veracrypt
+brew install macfuse
 # brew cask install handbrake
 # brew cask install makeMKV
-brew cask install zenmap
-brew cask install wireshark
-brew cask install gpredict
+brew install zenmap
+brew install wireshark
+brew install gpredict
 
 # Google Slavery
 echo Install Google Apps
 # brew cask install --appdir="/Applications" google-chrome
-brew cask install  google-chrome
+brew install  google-chrome
 # brew cask install  MkChromecast
 # Nice to have
 echo Install Some additional Apps
-brew cask install musescore
-brew cask install gimp
+brew install musescore
+brew install gimp
 # brew cask install parallels
 # brew cask install microsoft-office
-brew cask install adobe-creative-cloud
+brew install adobe-creative-cloud
 open /usr/local/Caskroom/adobe-creative-cloud/latest
 echo Install Adobe Creative Cloud Now
 read -p "Press any key to continue... " -n1 -s
