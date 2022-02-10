@@ -132,5 +132,5 @@ alias kgdep='kubectl get deployments'
 # kubectl misc
 alias kl='kubectl logs'
 alias kei='kubectl exec -it'
-
+alias dev='dr -v ${PWD}:/developer ubuntu:cloud_dev'
 compdef __start_kubectl k
