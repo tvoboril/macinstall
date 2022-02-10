@@ -28,20 +28,20 @@ brew install htop
 brew install awscli
 brew install aws-shell
 brew install cmake
-# brew install brew-cask
-brew install sshfs
+#brew install brew-cask
+#brew install sshfs
 #brew cask search
 #brew cask uninstall app
 
 # Core Functionality
 echo Install Core Apps
-brew cask install alfred
-brew cask install authy
+brew install alfred
+brew install authy
 # brew cask install skype
-brew cask install vlc
+brew install vlc
 # brew cask install firefox
-brew cask install discord
-brew cask install java
+brew install discord
+brew nstall java
 #brew cask install --appdir="/Applications" evernote
 #brew cask install --appdir="/Applications" wunderlist
 #brew cask install --appdir="/Applications" clamxav
