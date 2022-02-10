@@ -34,6 +34,7 @@ brew install iterm2
 #brew cask search
 #brew cask uninstall app
 brew install neofetch
+brew install psequel
 
 # Core Functionality
 echo Install Core Apps
@@ -62,6 +63,8 @@ brew install macfuse
 brew install zenmap
 brew install wireshark
 brew install gpredict
+brew install go
+sudo gem install colorls
 
 # Google Slavery
 echo Install Google Apps
@@ -87,6 +90,17 @@ echo  '\n'
 
 # cleanup
 brew cleanup --force
+
+#zsh setup
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+
+
 
 
 #copy my profile stuff
