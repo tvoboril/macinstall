@@ -4,9 +4,9 @@ echo Install all AppStore Apps at first!
 read -p "Press any key to continue... " -n1 -s
 echo  '\n'
 
-#echo Install Source Code Pro
+echo Install Fonts
 #git clone https://github.com/adobe-fonts/source-code-pro.git
-#cp source-code-pro/OTF/* /Library/Fonts/.
+cp *.ttf /Library/Fonts/.
 
 echo Install Homebrew, wget, cask, etc
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -28,6 +28,7 @@ brew install htop
 brew install awscli
 brew install aws-shell
 brew install cmake
+brew install iterm2
 #brew install brew-cask
 #brew install sshfs
 #brew cask search
@@ -43,6 +44,7 @@ brew install vlc
 # brew cask install firefox
 brew install discord
 brew nstall java
+brew install istat-menus
 #brew cask install --appdir="/Applications" evernote
 #brew cask install --appdir="/Applications" wunderlist
 #brew cask install --appdir="/Applications" clamxav
