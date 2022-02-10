@@ -34,7 +34,7 @@ brew install iterm2
 #brew cask search
 #brew cask uninstall app
 brew install neofetch
-brew install psequel
+
 
 # Core Functionality
 echo Install Core Apps
@@ -44,7 +44,7 @@ brew install authy
 brew install vlc
 # brew cask install firefox
 brew install discord
-brew nstall java
+brew install java
 brew install istat-menus
 #brew cask install --appdir="/Applications" evernote
 #brew cask install --appdir="/Applications" wunderlist
