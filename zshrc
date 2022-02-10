@@ -132,3 +132,5 @@ alias kgdep='kubectl get deployments'
 # kubectl misc
 alias kl='kubectl logs'
 alias kei='kubectl exec -it'
+
+compdef __start_kubectl k
