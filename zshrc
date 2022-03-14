@@ -134,3 +134,6 @@ alias kl='kubectl logs'
 alias kei='kubectl exec -it'
 alias dev='dr -v ${PWD}:/developer ubuntu:cloud_dev'
 compdef __start_kubectl k
+
+ # kubeconfig cluster mess$
+ export KUBECONFIG=$(find ~/.kube/clusters -type f | xargs -I % echo -n ":%")$
