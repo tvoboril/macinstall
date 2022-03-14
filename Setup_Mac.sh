@@ -49,6 +49,11 @@ brew install awscli
 brew install aws-shell
 brew install cmake
 brew install kubectl
+brew install helm
+brew install lua
+brew install pip
+brew install dive
+brew install nodejs
 
 # Nice to have
 echo Install Some additional Apps
