@@ -54,6 +54,7 @@ brew install lua
 brew install pip
 brew install dive
 brew install nodejs
+brew install sipcalc
 
 # Nice to have
 echo Install Some additional Apps
