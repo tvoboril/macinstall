@@ -55,6 +55,10 @@ brew install pip
 brew install dive
 brew install nodejs
 brew install sipcalc
+brew tap dbt-labs/dbt
+brew install dbt-snowflake
+brew install --cask snowflake-snowsql
+brew install redis-cli
 
 # Nice to have
 echo Install Some additional Apps
@@ -65,7 +69,7 @@ brew install authy
 brew install vlc
 brew install iterm2
 brew install istat-menus
-
+brew install obs
 
 # cleanup
 brew cleanup --force
